@@ -1,0 +1,13 @@
+[ 2017-07-07T08:59:09+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012000s ]
+
+[ 2017-07-07T11:19:07+08:00 ] 127.0.0.1 /undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.038003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043003s ]
+ERR: 无法加载模块:Undefined
+
