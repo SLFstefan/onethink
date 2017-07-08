@@ -272,7 +272,6 @@
         })();
     </script>
     <script type="text/javascript" src="/Public/static/think.js"></script>
-    <script type="text/javascript" src="/Public/Admin/js/common.js"></script>
     <script type="text/javascript">
         +function(){
             var $window = $(window), $subnav = $("#subnav"), url;

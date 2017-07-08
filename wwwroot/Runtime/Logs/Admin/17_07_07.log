@@ -4646,3 +4646,1643 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
 
+[ 2017-07-07T14:12:07+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.030002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sale` LIMIT 0,6   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017001s ]
+
+[ 2017-07-07T14:12:20+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.013000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sale` LIMIT 0,6   [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-07-07T14:43:51+08:00 ] 127.0.0.1 /wchat.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.029001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ AdminIndex ] --START--
+SQL: SHOW COLUMNS FROM `addons` [ RunTime:0.1060s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0590s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0830s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `action_log` [ RunTime:0.0330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `action_log` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `document` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0780s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `model` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.574032s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.588034s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SystemInfo' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.303074s ]
+SQL: select version() as v; [ RunTime:0.1210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168010s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.703040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.853049s ]
+INFO: Run Addons\SystemInfo\SystemInfoAddon [ RunTime:0.854049s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'DevTeam' AND `status` = 1 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.496085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.901051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.904051s ]
+INFO: Run Addons\DevTeam\DevTeamAddon [ RunTime:0.050002s ]
+INFO: [ AdminIndex ] --END-- [ RunTime:1.492085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.901051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.905052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2017-07-07T14:48:08+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.045003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ AdminIndex ] --START--
+SQL: SHOW COLUMNS FROM `addons` [ RunTime:0.0140s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `action_log` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `action_log` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `document` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `model` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.186011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.183010s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'SystemInfo' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.381022s ]
+SQL: select version() as v; [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.185011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.193012s ]
+INFO: Run Addons\SystemInfo\SystemInfoAddon [ RunTime:0.192011s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'DevTeam' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.403023s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.208012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.213013s ]
+INFO: Run Addons\DevTeam\DevTeamAddon [ RunTime:0.020001s ]
+INFO: [ AdminIndex ] --END-- [ RunTime:0.396023s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.208012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.214013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-07-07T14:48:11+08:00 ] 127.0.0.1 /admin.php?s=/Center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0810s ]
+SQL: SELECT * FROM `center` ORDER BY `id` asc  [ RunTime:0.0440s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\d39e51d7c14c2b28a9a0e8a9fb7b6dba.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\d39e51d7c14c2b28a9a0e8a9fb7b6dba.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026002s ]
+
+[ 2017-07-07T14:48:19+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sale` LIMIT 0,6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T14:58:02+08:00 ] 127.0.0.1 /admin.php?s=/Sale/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.491028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.492028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.080005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.080005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.131007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.131007s ]
+
+[ 2017-07-07T14:58:02+08:00 ] 127.0.0.1 /admin.php?s=/Sale/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2017-07-07T14:58:47+08:00 ] 127.0.0.1 /admin.php?s=/Sale/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0130s ]
+
+[ 2017-07-07T14:58:47+08:00 ] 127.0.0.1 /admin.php?s=/Sale/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.025002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0120s ]
+
+[ 2017-07-07T14:58:52+08:00 ] 127.0.0.1 /admin.php?s=/Sale/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T15:00:09+08:00 ] 127.0.0.1 /admin.php?s=/Sale/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-07-07T15:00:15+08:00 ] 127.0.0.1 /admin.php?s=/Sale/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-07-07T15:00:23+08:00 ] 127.0.0.1 /admin.php?s=/Sale/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.023002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0850s ]
+
+[ 2017-07-07T15:00:55+08:00 ] 127.0.0.1 /admin.php?s=/File/uploadPicture/session_id/53cll3haun8rfo8joaqcr5bkp6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.020001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.1720s ]
+SQL: SELECT `id`,`path`,`url`,`md5`,`sha1`,`status`,`create_time` FROM `picture` WHERE `md5` = 'a2546916daee9032449cec5bb07e1b63' AND `sha1` = '2592b7a4d3c729e174b00727f3a170263a07f6b2' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-07-07T15:01:05+08:00 ] 127.0.0.1 /admin.php?s=/Sale/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0130s ]
+SQL: INSERT INTO `sale` (`id`,`title`,`name`,`price`,`unit`,`type`,`image`,`content`,`intro`,`end_time`,`tel`,`create_time`,`status`) VALUES ('0','djkfkdj','dfdfd','32323','0','1','/Uploads/Picture/2017-07-07/595e6e429461a.png','dfkilodfkd f','dfkldjfkd','2017-07-12 15:00','367263','1499410864','1') [ RunTime:0.4360s ]
+
+[ 2017-07-07T15:01:07+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sale` LIMIT 0,6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-07-07T15:01:09+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sale` LIMIT 6,6   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T15:01:14+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sale` LIMIT 0,6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.175010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.175010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T16:51:18+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.013001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.2020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.2890s ]
+SQL: SELECT * FROM `sale` LIMIT 0,6   [ RunTime:0.0430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T16:51:27+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sale` LIMIT 6,6   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T16:51:32+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sale` LIMIT 0,6   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-07-07T17:56:23+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.015001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.1890s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.2600s ]
+SQL: SELECT * FROM `sale` LIMIT 0,6   [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.263015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.263015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-07-07T17:56:25+08:00 ] 127.0.0.1 /admin.php?s=/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0890s ]
+SQL: SELECT `id`,`title`,`url` FROM `menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.1400s ]
+SQL: SELECT `pid` FROM `menu` WHERE ( pid !=0 AND url like '%Article/index%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `menu` WHERE `group` <> '' AND `pid` = 2  [ RunTime:0.0150s ]
+SQL: SELECT `id`,`url` FROM `menu` WHERE `pid` = 2 AND `hide` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `menu` WHERE `group` = '内容' AND `pid` = 2 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0960s ]
+SQL: SELECT `extend_id` FROM auth_group_access g INNER JOIN auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.4790s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0750s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `category` WHERE `status` = 1 ORDER BY `pid`,`sort`  [ RunTime:0.0590s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0730s ]
+SQL: SELECT * FROM `model` WHERE `name` = 'document' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0940s ]
+SQL: SELECT COUNT(*) AS tp_count FROM document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT `id`,`title`,`type`,`update_time`,`status`,`view`,`category_id`,`model_id`,`pid` FROM document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 ORDER BY `level` DESC,DOCUMENT.id DESC LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT `extend` FROM `model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.1030s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `attribute` WHERE `model_id` = 1  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: groups D:\2017PHP\software\onethink\wwwroot\Application\Admin\Controller\ArticleController.class.php 第 231 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.223013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.224013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T17:56:35+08:00 ] 127.0.0.1 /admin.php?s=/article/mydocument.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0140s ]
+SQL: SELECT `extend_id` FROM auth_group_access g INNER JOIN auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `category` WHERE `status` = 1 ORDER BY `pid`,`sort`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `document` WHERE `uid` = 1 AND `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`group_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `document` WHERE `uid` = 1 AND `status` IN ('0','1','2') AND `pid` = 0 ORDER BY `update_time` desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0150s ]
+SQL: SELECT `extend` FROM `model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0160s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `attribute` WHERE `model_id` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `title` FROM `category` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.179010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.180010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-07-07T17:56:40+08:00 ] 127.0.0.1 /admin.php?s=/Article/index/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0180s ]
+SQL: SELECT `extend_id` FROM auth_group_access g INNER JOIN auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0160s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `category` WHERE `status` = 1 ORDER BY `pid`,`sort`  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid` FROM `category` WHERE `status` = 1 ORDER BY `sort`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `model` WHERE `name` = 'document' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM document DOCUMENT WHERE `status` IN ('0','1','2') AND `category_id` = 2 AND `pid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`type`,`update_time`,`status`,`view`,`category_id`,`model_id`,`pid` FROM document DOCUMENT WHERE `status` IN ('0','1','2') AND `category_id` = 2 AND `pid` = 0 ORDER BY `level` DESC,DOCUMENT.id DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `extend` FROM `model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0170s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `attribute` WHERE `model_id` = 1  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`title`,`extend`,`relation`,`need_pk`,`field_sort`,`field_group`,`attribute_list`,`attribute_alias`,`template_list`,`template_add`,`template_edit`,`list_grid`,`list_row`,`search_key`,`search_list`,`create_time`,`update_time`,`status`,`engine_type` FROM `model` WHERE `status` = 1 AND `extend` = 1  [ RunTime:0.0020s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.207011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.208012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-07-07T17:56:48+08:00 ] 127.0.0.1 /admin.php?s=/article/mydocument.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.013001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0160s ]
+SQL: SELECT `extend_id` FROM auth_group_access g INNER JOIN auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0160s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `category` WHERE `status` = 1 ORDER BY `pid`,`sort`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `document` WHERE `uid` = 1 AND `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`group_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `document` WHERE `uid` = 1 AND `status` IN ('0','1','2') AND `pid` = 0 ORDER BY `update_time` desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0180s ]
+SQL: SELECT `extend` FROM `model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `attribute` WHERE `model_id` = 1  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `title` FROM `category` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-07-07T17:59:52+08:00 ] 127.0.0.1 /admin.php?s=/Article/edit/cate_id/2/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0160s ]
+SQL: SELECT `extend_id` FROM auth_group_access g INNER JOIN auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0180s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `category` WHERE `status` = 1 ORDER BY `pid`,`sort`  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`pid` FROM `category` WHERE `status` = 1 ORDER BY `sort`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0190s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`group_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `document` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `document_article` [ RunTime:0.0560s ]
+SQL: SELECT `id`,`parse`,`content`,`template`,`bookmark` FROM `document_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0170s ]
+SQL: SELECT `extend` FROM `model` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0180s ]
+SQL: SELECT `id`,`name`,`title`,`field`,`type`,`value`,`remark`,`is_show`,`extra`,`model_id`,`is_must`,`status`,`update_time`,`create_time`,`validate_rule`,`validate_time`,`error_info`,`validate_type`,`auto_rule`,`auto_time`,`auto_type` FROM `attribute` WHERE `model_id` IN ('2','1')  [ RunTime:0.0030s ]
+SQL: SELECT `field_sort`,`attribute_list`,`attribute_alias` FROM `model` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `type` FROM `category` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ adminArticleEdit ] --START--
+SQL: SHOW COLUMNS FROM `addons` [ RunTime:0.1540s ]
+SQL: SELECT `config` FROM `addons` WHERE `name` = 'EditorForAdmin' AND `status` = 1 LIMIT 1   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.571033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Addons\EditorForAdmin\EditorForAdminAddon [ RunTime:0.528030s ]
+INFO: [ adminArticleEdit ] --END-- [ RunTime:0.528030s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T18:23:11+08:00 ] 127.0.0.1 /admin.php?s=/Center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `center` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `center` ORDER BY `id` asc  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\d39e51d7c14c2b28a9a0e8a9fb7b6dba.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\d39e51d7c14c2b28a9a0e8a9fb7b6dba.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-07-07T18:23:15+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.0590s ]
+SQL: SELECT * FROM `sale` LIMIT 0,6   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T18:23:19+08:00 ] 127.0.0.1 /admin.php?s=/Sale/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sale` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T18:23:51+08:00 ] 127.0.0.1 /admin.php?s=/Sale/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0170s ]
+SQL: UPDATE `sale` SET `title`='套三出售',`name`='施刘凡',`price`='88',`unit`='1',`type`='2',`image`='/Uploads/Picture/2017-07-07/595e6f736cefe.png',`content`='交电费款经典卡反间谍法健康的减肥',`intro`='的疯狂的减肥看见对方',`end_time`='2017-07-27',`tel`='13438246630' WHERE `id` = 3 [ RunTime:0.2920s ]
+
+[ 2017-07-07T18:23:53+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.016001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sale` LIMIT 0,6   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2017-07-07T18:23:56+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sale` LIMIT 6,6   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T18:23:58+08:00 ] 127.0.0.1 /admin.php?s=/Sale/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sale` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sale` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sale` LIMIT 0,6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 94 行.
+NOTIC: [8] Undefined variable: pid D:\2017PHP\software\onethink\wwwroot\Runtime\Cache\Admin\48804f473ae4f64ec9121665b8286f36.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T19:10:27+08:00 ] 127.0.0.1 /admin.php?s=/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0850s ]
+SQL: SELECT `id`,`title`,`url` FROM `menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0610s ]
+SQL: SELECT `pid` FROM `menu` WHERE ( pid !=0 AND url like '%Config/group%' ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT * FROM `menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT  `group` FROM `menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0440s ]
+SQL: SELECT `id`,`url` FROM `menu` WHERE `pid` = 68 AND `hide` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0170s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `config` WHERE `status` = 1 AND `group` = 1 ORDER BY `sort`  [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-07-07T19:10:30+08:00 ] 127.0.0.1 /admin.php?s=/Config/group/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.020002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0240s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `config` WHERE `status` = 1 AND `group` = 4 ORDER BY `sort`  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-07-07T19:10:36+08:00 ] 127.0.0.1 /admin.php?s=/Config/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.016001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0300s ]
+SQL: UPDATE `config` SET `value`='1' WHERE `name` = 'SHOW_PAGE_TRACE' [ RunTime:0.0130s ]
+SQL: UPDATE `config` SET `value`='0:数字
+1:字符
+2:文本
+3:数组
+4:枚举' WHERE `name` = 'CONFIG_TYPE_LIST' [ RunTime:0.0010s ]
+SQL: UPDATE `config` SET `value`='ambiance' WHERE `name` = 'CODEMIRROR_THEME' [ RunTime:0.0010s ]
+SQL: UPDATE `config` SET `value`='1:基本
+2:内容
+3:用户
+4:系统' WHERE `name` = 'CONFIG_GROUP_LIST' [ RunTime:0.0010s ]
+SQL: UPDATE `config` SET `value`='./Data/' WHERE `name` = 'DATA_BACKUP_PATH' [ RunTime:0.0020s ]
+SQL: UPDATE `config` SET `value`='1:视图
+2:控制器' WHERE `name` = 'HOOKS_TYPE' [ RunTime:0.0010s ]
+SQL: UPDATE `config` SET `value`='20971520' WHERE `name` = 'DATA_BACKUP_PART_SIZE' [ RunTime:0.0010s ]
+SQL: UPDATE `config` SET `value`='AUTH_ON:1
+AUTH_TYPE:2' WHERE `name` = 'AUTH_CONFIG' [ RunTime:0.0010s ]
+SQL: UPDATE `config` SET `value`='1' WHERE `name` = 'DATA_BACKUP_COMPRESS' [ RunTime:0.0010s ]
+SQL: UPDATE `config` SET `value`='9' WHERE `name` = 'DATA_BACKUP_COMPRESS_LEVEL' [ RunTime:0.0010s ]
+SQL: UPDATE `config` SET `value`='1' WHERE `name` = 'DEVELOP_MODE' [ RunTime:0.0010s ]
+SQL: UPDATE `config` SET `value`='' WHERE `name` = 'ADMIN_ALLOW_IP' [ RunTime:0.0010s ]
+
+[ 2017-07-07T19:10:38+08:00 ] 127.0.0.1 /admin.php?s=/Config/group/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.021002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.051003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0170s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0020s ]
+
+[ 2017-07-07T19:22:25+08:00 ] 127.0.0.1 /admin.php?s=/Center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T19:22:27+08:00 ] 127.0.0.1 /admin.php?s=/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-07-07T19:22:33+08:00 ] 127.0.0.1 /admin.php?s=/article/mydocument.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T19:22:38+08:00 ] 127.0.0.1 /admin.php?s=/Article/edit/cate_id/2/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.015001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T19:23:03+08:00 ] 127.0.0.1 /admin.php?s=/article/mydocument.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.016001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T19:23:09+08:00 ] 127.0.0.1 /admin.php?s=/Article/index/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T19:23:15+08:00 ] 127.0.0.1 /admin.php?s=/article/add/cate_id/2/model_id/2/pid/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T22:03:52+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-07-07T22:03:52+08:00 ] 127.0.0.1 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T22:03:53+08:00 ] 127.0.0.1 /admin.php?s=/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.084005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.086005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T22:04:04+08:00 ] 127.0.0.1 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T22:04:04+08:00 ] 127.0.0.1 /admin.php?s=/Public/verify.html&random=0.8231945312032898
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T22:04:20+08:00 ] 127.0.0.1 /admin.php?s=/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0520s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `action` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `action_log` [ RunTime:0.0440s ]
+SQL: INSERT INTO `action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('1','1','2130706433','member','1','1499436259','stefan在2017-07-07 22:04登录了后台') [ RunTime:0.0830s ]
+SQL: SELECT * FROM `action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 1 D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 679 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 679 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `action_log` WHERE `action_id` = 1 AND `user_id` = 1 AND `create_time` > 1499349859 LIMIT 1   [ RunTime:0.0820s ]
+SQL: UPDATE `member` SET `login`=`login`+1,`last_login_time`='1499436259',`last_login_ip`='2130706433' WHERE `uid` = 1 [ RunTime:0.0020s ]
+
+[ 2017-07-07T22:04:21+08:00 ] 127.0.0.1 /admin.php?s=/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T22:04:25+08:00 ] 127.0.0.1 /admin.php?s=/Center/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T22:04:27+08:00 ] 127.0.0.1 /admin.php?s=/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T22:04:32+08:00 ] 127.0.0.1 /admin.php?s=/Article/index/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T22:04:35+08:00 ] 127.0.0.1 /admin.php?s=/Article/edit/id/1/model/1/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-07-07T22:04:55+08:00 ] 127.0.0.1 /admin.php?s=/File/uploadPicture/session_id/mk1o2isjovlr0852n9daarmo30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T22:05:43+08:00 ] 127.0.0.1 /admin.php?s=/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.022001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0140s ]
+SQL: SELECT `status` FROM `document` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `document` SET `title`='OneThink1.1开发版发布',`name`='',`description`='期待已久的OneThink最新版发布',`type`='2',`display`='1',`level`='0',`cover_id`='1',`view`='8',`comment`='0',`create_time`='1499226960',`deadline`='1500508800',`link_id`='0',`pid`='0',`model_id`='2',`group_id`='0',`category_id`='2',`root`='0',`update_time`='1499436342',`status`='1',`position`='0' WHERE `id` = 1 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `document_article` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0140s ]
+SQL: SELECT `extend` FROM `model` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`name`,`title`,`field`,`type`,`value`,`remark`,`is_show`,`extra`,`model_id`,`is_must`,`status`,`update_time`,`create_time`,`validate_rule`,`validate_time`,`error_info`,`validate_type`,`auto_rule`,`auto_time`,`auto_type` FROM `attribute` WHERE `model_id` IN ('2','1')  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: id D:\2017PHP\software\onethink\wwwroot\Application\Admin\Model\DocumentModel.class.php 第 115 行.
+NOTIC: [2] Missing argument 1 for arr2str() D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 61 行.
+NOTIC: [8] Undefined variable: arr D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 62 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 62 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+SQL: UPDATE `document_article` SET `content`='<h1>
+	OneThink1.1开发版发布&nbsp;
+</h1>
+<p>
+	<br />
+</p>
+<p>
+	<strong>OneThink是一个开源的内容管理框架，基于最新的ThinkPHP3.2版本开发，提供更方便、更安全的WEB应用开发体验，采用了全新的架构设计和命名空间机制，融合了模块化、驱动化和插件化的设计理念于一体，开启了国内WEB应用傻瓜式开发的新潮流。&nbsp;</strong> 
+</p>
+<h2>
+	主要特性：
+</h2>
+<p>
+	1. 基于ThinkPHP最新3.2版本。
+</p>
+<p>
+	2. 模块化：全新的架构和模块化的开发机制，便于灵活扩展和二次开发。&nbsp;
+</p>
+<p>
+	3. 文档模型/分类体系：通过和文档模型绑定，以及不同的文档类型，不同分类可以实现差异化的功能，轻松实现诸如资讯、下载、讨论和图片等功能。
+</p>
+<p>
+	4. 开源免费：OneThink遵循Apache2开源协议,免费提供使用。&nbsp;
+</p>
+<p>
+	5. 用户行为：支持自定义用户行为，可以对单个用户或者群体用户的行为进行记录及分享，为您的运营决策提供有效参考数据。
+</p>
+<p>
+	6. 云端部署：通过驱动的方式可以轻松支持平台的部署，让您的网站无缝迁移，内置已经支持SAE和BAE3.0。
+</p>
+<p>
+	7. 云服务支持：即将启动支持云存储、云安全、云过滤和云统计等服务，更多贴心的服务让您的网站更安心。
+</p>
+<p>
+	8. 安全稳健：提供稳健的安全策略，包括备份恢复、容错、防止恶意攻击登录，网页防篡改等多项安全管理功能，保证系统安全，可靠、稳定的运行。&nbsp;
+</p>
+<p>
+	9. 应用仓库：官方应用仓库拥有大量来自第三方插件和应用模块、模板主题，有众多来自开源社区的贡献，让您的网站“One”美无缺。&nbsp;
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<strong>&nbsp;OneThink集成了一个完善的后台管理体系和前台模板标签系统，让你轻松管理数据和进行前台网站的标签式开发。&nbsp;</strong> 
+</p>
+<p>
+	<br />
+</p>
+<h2>
+	后台主要功能：
+</h2>
+<p>
+	1. 用户Passport系统
+</p>
+<p>
+	2. 配置管理系统&nbsp;
+</p>
+<p>
+	3. 权限控制系统
+</p>
+<p>
+	4. 后台建模系统&nbsp;
+</p>
+<p>
+	5. 多级分类系统&nbsp;
+</p>
+<p>
+	6. 用户行为系统&nbsp;
+</p>
+<p>
+	7. 钩子和插件系统
+</p>
+<p>
+	8. 系统日志系统&nbsp;
+</p>
+<p>
+	9. 数据备份和还原
+</p>
+<p>
+	<br />
+</p>
+<p>
+	&nbsp;[ 官方下载：&nbsp;<a href=\"http://www.onethink.cn/download.html\" target=\"_blank\">http://www.onethink.cn/download.html</a>&nbsp;&nbsp;开发手册：<a href=\"http://document.onethink.cn/\" target=\"_blank\">http://document.onethink.cn/</a>&nbsp;]&nbsp;
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<strong>OneThink开发团队 2013~2014</strong> 
+</p>',`parse`='0',`bookmark`='0',`template`='' WHERE `id` = 1 [ RunTime:0.0030s ]
+INFO: [ documentSaveComplete ] --START--
+INFO: Run Addons\Attachment\AttachmentAddon [ RunTime:0.048003s ]
+INFO: [ documentSaveComplete ] --END-- [ RunTime:0.048003s ]
+NOTIC: [8] Undefined variable: id D:\2017PHP\software\onethink\wwwroot\Application\Admin\Model\DocumentModel.class.php 第 126 行.
+
+[ 2017-07-07T22:05:45+08:00 ] 127.0.0.1 /admin.php?s=/Article/index/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.013001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T22:43:09+08:00 ] 127.0.0.1 /admin.php?s=/Article/edit/id/1/model/1/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T22:43:59+08:00 ] 127.0.0.1 /admin.php?s=/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0160s ]
+SQL: SELECT `status` FROM `document` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `document` SET `title`='OneThink1.1开发版发布',`name`='',`description`='期待已久的OneThink最新版发布',`type`='2',`display`='1',`level`='0',`cover_id`='1',`view`='8',`comment`='0',`create_time`='1499226960',`deadline`='1500508800',`link_id`='0',`pid`='0',`model_id`='2',`group_id`='0',`category_id`='2',`root`='0',`update_time`='1499438639',`status`='1',`position`='0' WHERE `id` = 1 [ RunTime:0.0800s ]
+SQL: SHOW COLUMNS FROM `document_article` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0180s ]
+SQL: SELECT `extend` FROM `model` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`name`,`title`,`field`,`type`,`value`,`remark`,`is_show`,`extra`,`model_id`,`is_must`,`status`,`update_time`,`create_time`,`validate_rule`,`validate_time`,`error_info`,`validate_type`,`auto_rule`,`auto_time`,`auto_type` FROM `attribute` WHERE `model_id` IN ('2','1')  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: id D:\2017PHP\software\onethink\wwwroot\Application\Admin\Model\DocumentModel.class.php 第 115 行.
+NOTIC: [2] Missing argument 1 for arr2str() D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 61 行.
+NOTIC: [8] Undefined variable: arr D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 62 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 62 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+SQL: UPDATE `document_article` SET `content`='<h1>
+	OneThink1.1开发版发布&nbsp;
+</h1>
+<p>
+	<br />
+</p>
+<p>
+	<strong>OneThink是一个开源的内容管理框架，基于最新的ThinkPHP3.2版本开发，提供更方便、更安全的WEB应用开发体验，采用了全新的架构设计和命名空间机制，融合了模块化、驱动化和插件化的设计理念于一体，开启了国内WEB应用傻瓜式开发的新潮流。&nbsp;</strong> 
+</p>
+<h2>
+	主要特性：
+</h2>
+<p>
+	1. 基于ThinkPHP最新3.2版本。
+</p>
+<p>
+	2. 模块化：全新的架构和模块化的开发机制，便于灵活扩展和二次开发。&nbsp;
+</p>
+<p>
+	3. 文档模型/分类体系：通过和文档模型绑定，以及不同的文档类型，不同分类可以实现差异化的功能，轻松实现诸如资讯、下载、讨论和图片等功能。
+</p>
+<p>
+	4. 开源免费：OneThink遵循Apache2开源协议,免费提供使用。&nbsp;
+</p>
+<p>
+	5. 用户行为：支持自定义用户行为，可以对单个用户或者群体用户的行为进行记录及分享，为您的运营决策提供有效参考数据。
+</p>
+<p>
+	6. 云端部署：通过驱动的方式可以轻松支持平台的部署，让您的网站无缝迁移，内置已经支持SAE和BAE3.0。
+</p>
+<p>
+	7. 云服务支持：即将启动支持云存储、云安全、云过滤和云统计等服务，更多贴心的服务让您的网站更安心。
+</p>
+<p>
+	8. 安全稳健：提供稳健的安全策略，包括备份恢复、容错、防止恶意攻击登录，网页防篡改等多项安全管理功能，保证系统安全，可靠、稳定的运行。&nbsp;
+</p>
+<p>
+	9. 应用仓库：官方应用仓库拥有大量来自第三方插件和应用模块、模板主题，有众多来自开源社区的贡献，让您的网站“One”美无缺。&nbsp;
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<strong>&nbsp;OneThink集成了一个完善的后台管理体系和前台模板标签系统，让你轻松管理数据和进行前台网站的标签式开发。&nbsp;</strong> 
+</p>
+<p>
+	<br />
+</p>
+<h2>
+	后台主要功能：
+</h2>
+<p>
+	1. 用户Passport系统
+</p>
+<p>
+	2. 配置管理系统&nbsp;
+</p>
+<p>
+	3. 权限控制系统
+</p>
+<p>
+	4. 后台建模系统&nbsp;
+</p>
+<p>
+	5. 多级分类系统&nbsp;
+</p>
+<p>
+	6. 用户行为系统&nbsp;
+</p>
+<p>
+	7. 钩子和插件系统
+</p>
+<p>
+	8. 系统日志系统&nbsp;
+</p>
+<p>
+	9. 数据备份和还原
+</p>
+<p>
+	<br />
+</p>
+<p>
+	&nbsp;[ 官方下载：&nbsp;<a href=\"http://www.onethink.cn/download.html\" target=\"_blank\">http://www.onethink.cn/download.html</a>&nbsp;&nbsp;开发手册：<a href=\"http://document.onethink.cn/\" target=\"_blank\">http://document.onethink.cn/</a>&nbsp;]&nbsp;
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<strong>OneThink开发团队 2013~2014</strong> 
+</p>',`parse`='0',`bookmark`='0',`template`='' WHERE `id` = 1 [ RunTime:0.0010s ]
+INFO: [ documentSaveComplete ] --START--
+INFO: Run Addons\Attachment\AttachmentAddon [ RunTime:0.033002s ]
+INFO: [ documentSaveComplete ] --END-- [ RunTime:0.033002s ]
+NOTIC: [8] Undefined variable: id D:\2017PHP\software\onethink\wwwroot\Application\Admin\Model\DocumentModel.class.php 第 126 行.
+
+[ 2017-07-07T22:44:02+08:00 ] 127.0.0.1 /admin.php?s=/Article/index/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T22:55:28+08:00 ] 127.0.0.1 /admin.php?s=/article/add/cate_id/2/model_id/2/pid/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.024001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+
+[ 2017-07-07T22:55:52+08:00 ] 127.0.0.1 /admin.php?s=/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0160s ]
+SQL: SELECT `check` FROM `category` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `document` (`title`,`name`,`description`,`type`,`display`,`level`,`cover_id`,`view`,`comment`,`create_time`,`link_id`,`id`,`pid`,`model_id`,`group_id`,`category_id`,`uid`,`root`,`attach`,`extend`,`update_time`,`status`,`position`) VALUES ('酒店客房的','','','2','1','0','0','0','0','1499439352','0','0','0','2','0','2','1','0','0','0','1499439352','2','0') [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `document_article` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0180s ]
+SQL: SELECT `extend` FROM `model` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`name`,`title`,`field`,`type`,`value`,`remark`,`is_show`,`extra`,`model_id`,`is_must`,`status`,`update_time`,`create_time`,`validate_rule`,`validate_time`,`error_info`,`validate_type`,`auto_rule`,`auto_time`,`auto_type` FROM `attribute` WHERE `model_id` IN ('2','1')  [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for arr2str() D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 61 行.
+NOTIC: [8] Undefined variable: arr D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 62 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 62 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+SQL: INSERT INTO `document_article` (`content`,`parse`,`bookmark`,`template`,`id`) VALUES ('的健康的健康附近的开发打开疯狂的疯狂的飞机离开的萨菲罗斯打发打发家里的事计分','0','0','','2') [ RunTime:0.0530s ]
+INFO: [ documentSaveComplete ] --START--
+INFO: Run Addons\Attachment\AttachmentAddon [ RunTime:0.009000s ]
+INFO: [ documentSaveComplete ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `action` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `action` WHERE `name` = 'add_document' LIMIT 1   [ RunTime:0.0140s ]
+
+[ 2017-07-07T22:55:55+08:00 ] 127.0.0.1 /admin.php?s=/Article/index/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T22:56:05+08:00 ] 127.0.0.1 /admin.php?s=/Article/edit/id/1/model/1/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-07-07T22:56:16+08:00 ] 127.0.0.1 /admin.php?s=/Article/edit/id/2/model/1/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T22:56:31+08:00 ] 127.0.0.1 /admin.php?s=/File/uploadPicture/session_id/mk1o2isjovlr0852n9daarmo30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-07-07T22:56:42+08:00 ] 127.0.0.1 /admin.php?s=/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.026002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0170s ]
+SQL: SELECT `status` FROM `document` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `document` SET `title`='酒店客房的',`name`='',`description`='',`type`='2',`display`='1',`level`='0',`cover_id`='3',`view`='7',`comment`='0',`create_time`='1499439300',`deadline`='1209600',`link_id`='0',`pid`='0',`model_id`='2',`group_id`='0',`category_id`='2',`root`='0',`update_time`='1499439402',`status`='2',`position`='0' WHERE `id` = 2 [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `document_article` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0150s ]
+SQL: SELECT `extend` FROM `model` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0170s ]
+SQL: SELECT `id`,`name`,`title`,`field`,`type`,`value`,`remark`,`is_show`,`extra`,`model_id`,`is_must`,`status`,`update_time`,`create_time`,`validate_rule`,`validate_time`,`error_info`,`validate_type`,`auto_rule`,`auto_time`,`auto_type` FROM `attribute` WHERE `model_id` IN ('2','1')  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: id D:\2017PHP\software\onethink\wwwroot\Application\Admin\Model\DocumentModel.class.php 第 115 行.
+NOTIC: [2] Missing argument 1 for arr2str() D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 61 行.
+NOTIC: [8] Undefined variable: arr D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 62 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 62 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+SQL: UPDATE `document_article` SET `content`='的健康的健康附近的开发打开疯狂的疯狂的飞机离开的萨菲罗斯打发打发家里的事计分',`parse`='0',`bookmark`='0',`template`='' WHERE `id` = 2 [ RunTime:0.0010s ]
+INFO: [ documentSaveComplete ] --START--
+INFO: Run Addons\Attachment\AttachmentAddon [ RunTime:0.012000s ]
+INFO: [ documentSaveComplete ] --END-- [ RunTime:0.012000s ]
+NOTIC: [8] Undefined variable: id D:\2017PHP\software\onethink\wwwroot\Application\Admin\Model\DocumentModel.class.php 第 126 行.
+
+[ 2017-07-07T22:56:44+08:00 ] 127.0.0.1 /admin.php?s=/Article/index/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.020002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-07-07T22:57:12+08:00 ] 127.0.0.1 /admin.php?s=/Article/edit/id/2/model/1/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.042003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-07-07T22:57:17+08:00 ] 127.0.0.1 /admin.php?s=/Article/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.024002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `document` [ RunTime:0.0140s ]
+SQL: SELECT `status` FROM `document` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `document` SET `title`='酒店客房的',`name`='',`description`='的进口发动机',`type`='2',`display`='1',`level`='0',`cover_id`='3',`view`='7',`comment`='0',`create_time`='1499439300',`deadline`='1209600',`link_id`='0',`pid`='0',`model_id`='2',`group_id`='0',`category_id`='2',`root`='0',`update_time`='1499439437',`status`='2',`position`='0' WHERE `id` = 2 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `document_article` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `model` [ RunTime:0.0140s ]
+SQL: SELECT `extend` FROM `model` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `attribute` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`name`,`title`,`field`,`type`,`value`,`remark`,`is_show`,`extra`,`model_id`,`is_must`,`status`,`update_time`,`create_time`,`validate_rule`,`validate_time`,`error_info`,`validate_type`,`auto_rule`,`auto_time`,`auto_type` FROM `attribute` WHERE `model_id` IN ('2','1')  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: id D:\2017PHP\software\onethink\wwwroot\Application\Admin\Model\DocumentModel.class.php 第 115 行.
+NOTIC: [2] Missing argument 1 for arr2str() D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 61 行.
+NOTIC: [8] Undefined variable: arr D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 62 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\2017PHP\software\onethink\wwwroot\Application\Common\Common\function.php 第 62 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+NOTIC: [2] strtotime() expects at least 1 parameter, 0 given D:\2017PHP\software\onethink\wwwroot\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+SQL: UPDATE `document_article` SET `content`='的健康的健康附近的开发打开疯狂的疯狂的飞机离开的萨菲罗斯打发打发家里的事计分',`parse`='0',`bookmark`='0',`template`='' WHERE `id` = 2 [ RunTime:0.0010s ]
+INFO: [ documentSaveComplete ] --START--
+INFO: Run Addons\Attachment\AttachmentAddon [ RunTime:0.009001s ]
+INFO: [ documentSaveComplete ] --END-- [ RunTime:0.009001s ]
+NOTIC: [8] Undefined variable: id D:\2017PHP\software\onethink\wwwroot\Application\Admin\Model\DocumentModel.class.php 第 126 行.
+
+[ 2017-07-07T22:57:19+08:00 ] 127.0.0.1 /admin.php?s=/Article/index/cate_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.017001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+

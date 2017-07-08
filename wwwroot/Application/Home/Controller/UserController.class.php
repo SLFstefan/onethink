@@ -59,9 +59,8 @@ class UserController extends HomeController {
 			if(!check_verify($verify)){
 				$this->error('验证码输入错误！');
 			}
-
 			/* 调用UC登录接口登录 */
-			$user = new UserApi;
+			$user = new UserApi();
 			$uid = $user->login($username, $password);
 			if(0 < $uid){ //UC登录成功
 				/* 登录用户 */
