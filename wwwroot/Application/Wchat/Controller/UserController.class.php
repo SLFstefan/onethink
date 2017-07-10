@@ -64,7 +64,7 @@ class UserController extends WchatController
                 $Member = D('Member');
                 if($Member->login($uid)){ //登录用户
                     //TODO:跳转到登录前页面
-                    $this->success('登录成功！',U('Wchat/Index/index'));
+                    $this->success('登录成功！',U('Wchat/Index/my'));
                 } else {
                     $this->error($Member->getError());
                 }
@@ -80,6 +80,16 @@ class UserController extends WchatController
 
         } else { //显示登录表单
             $this->display('login');
+        }
+    }
+
+    /* 退出登录 */
+    public function logout(){
+        if(is_login()){
+            D('Member')->logout();
+            $this->success('退出成功！', U('User/login'));
+        } else {
+            $this->redirect('User/login');
         }
     }
 

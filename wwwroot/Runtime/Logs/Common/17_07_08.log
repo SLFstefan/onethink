@@ -1,20 +1,84 @@
-[ 2017-07-08T00:42:39+08:00 ] 127.0.0.1 /Public/Wchat/js/jquery-1.11.2.min.js
+[ 2017-07-08T12:50:18+08:00 ] 127.0.0.1 /Public/Wchat/js/jquery-1.11.2.min.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.012000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
 ERR: 无法加载模块:Public
 
-[ 2017-07-08T00:44:43+08:00 ] 127.0.0.1 /Public/Wchat/js/jquery-1.11.2.min.js
+[ 2017-07-08T12:50:18+08:00 ] 127.0.0.1 /Public/Wchat/js/my.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.033002s ]
-INFO: [ app_init ] --END-- [ RunTime:0.037002s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.028002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030002s ]
 ERR: 无法加载模块:Public
 
-[ 2017-07-08T08:51:48+08:00 ] 127.0.0.1 /favicon.ico
+[ 2017-07-08T12:50:40+08:00 ] 127.0.0.1 /Public/Wchat/js/jquery-1.11.2.min.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T12:50:40+08:00 ] 127.0.0.1 /Public/Wchat/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.017001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T12:56:32+08:00 ] 127.0.0.1 /Public/Wchat/js/jquery-1.11.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T12:56:32+08:00 ] 127.0.0.1 /Public/Wchat/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T12:57:03+08:00 ] 127.0.0.1 /Public/Wchat/js/jquery-1.11.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.050003s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T12:57:03+08:00 ] 127.0.0.1 /Public/Wchat/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T13:02:49+08:00 ] 127.0.0.1 /Public/Wchat/js/jquery-1.11.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.015000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T13:02:49+08:00 ] 127.0.0.1 /Public/Wchat/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.019002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022002s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T13:58:34+08:00 ] 127.0.0.1 /Public/Wchat/js/jquery-1.11.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+ERR: 无法加载模块:Public
+
+[ 2017-07-08T13:58:34+08:00 ] 127.0.0.1 /Public/Wchat/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013000s ]
+ERR: 无法加载模块:Public
 

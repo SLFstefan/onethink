@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8">
@@ -37,7 +37,7 @@
                 <p class="navbar-text"><a href="#" class="navbar-link">发现</a></p>
             </div>
             <div class="col-xs-3">
-                <p class="navbar-text"><a href="{:U('Index/my')}" class="navbar-link">我的</a></p>
+                <p class="navbar-text"><a href="<?php echo U('Index/my');?>" class="navbar-link">我的</a></p>
             </div>
         </div>
     </nav>
@@ -45,13 +45,14 @@
 
     <div class="container-fluid">
         <div class="blank"></div>
-        <h3 class="noticeDetailTitle"><strong>{$detail.title}</strong></h3>
-        <div class="noticeDetailInfo">发布者:{$detail.name}</div>
-        <div class="noticeDetailInfo">发布时间：{$detail.create_time|date='Y-m-d G:i:s',###}</div>
-        <div class="noticeDetailInfo">联系电话：{$detail.tel}</div>
-        <h4 class="text-danger">价格:{$detail.price}{:($detail['unit']==0)?'元/月' :'万元'}</h4>
+        <h3 class="noticeDetailTitle"><strong><?php echo ($detail["title"]); ?></strong></h3>
+        <div class="noticeDetailInfo">发布者:<?php echo ($detail["nickname"]); ?></div>
+        <div class="noticeDetailInfo">发布时间：<?php echo (date('Y-m-d G:i:s',$detail["create_time"])); ?></div>
+        <div class="noticeDetailInfo">截止时间：<?php echo (date('Y-m-d G:i:s',$detail["deadline"])); ?></div>
+        <div class="noticeDetailInfo pull-right"><a class="ajax-get confirm" href="<?php echo U('Activity/apply',array('activity_id'=>$detail['id'],'user_id'=>$detail['uid']));?>">申请参与活动</a></div>
         <div class="noticeDetailContent">
-            <img src="{$detail.image}" />
+            <p><?php echo ($detail["content"]); ?></p>
+            <p><img src="<?php echo ($detail["path"]); ?>" alt="" /></p>
         </div>
     </div>
 </div>

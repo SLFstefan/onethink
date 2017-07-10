@@ -37,13 +37,13 @@
                 <p class="navbar-text"><a href="#" class="navbar-link">发现</a></p>
             </div>
             <div class="col-xs-3">
-                <p class="navbar-text"><a href="#" class="navbar-link">我的</a></p>
+                <p class="navbar-text"><a href="{:U('Index/my')}" class="navbar-link">我的</a></p>
             </div>
         </div>
     </nav>
     <!--导航结束-->
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="content_list">
         <volist name="list" id="list">
         <div class="row noticeList">
             <a href="notice-detail.html">
@@ -51,7 +51,7 @@
                     <img class="noticeImg" src="{$list.path}" />
                 </div>
                 <div class="col-xs-10">
-                    <p class="title"><a href="{:U('Notice/detail?id='.$list['id'])}" class="navbar-link">{$list.title}</a></p>
+                    <p class="title"><a href="{:U('Notice/detail',array('id'=>$list['id']))}" class="navbar-link">{$list.title}</a></p>
                     <p class="intro">{$list.description}</p>
                     <p class="info">浏览: {$list.view} <span class="pull-right">{$list.create_time|date='Y-m-d G:i:s',###}</span> </p>
                 </div>
@@ -59,10 +59,53 @@
         </div>
         </volist>
     </div>
+    <div class="text-center">
+        <button type="button" class="btn btn-info ajax-page">获取更多~~~</button>
+    </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="./public/Wchat/jquery-1.11.2.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="./public/Wchat/bootstrap/js/bootstrap.min.js"></script>
+<script type="application/javascript">
+    var p = 1;
+    var url = '/wchat.php?s=/Notice/index';
+    var inner_url = '/wchat.php?s=/Notice/detail';
+    //将时间戳转换为本地时间
+    function getLocalTime(time) {
+        return new Date(parseInt(time) * 1000).toLocaleString().replace(/:\d{1,2}$/,' ');
+    }
+    $(function(){
+        $('.ajax-page').click(function () {
+            if($(this).hasClass('ajax-page')){
+                p = p+1;
+                $.get(url+'/p/'+p,function(response){
+                    if(response.length){
+                        html = '';
+                        $(response).each(function(i,v){
+                            html += '<div class="row noticeList">\
+                                            <a href="'+inner_url+'/id/'+v.id+'">\
+                                                <div class="col-xs-2">\
+                                                    <img class="img-rounded img-responsive" src="'+v.path+'" />\
+                                                </div>\
+                                                <div class="col-xs-10">\
+                                                    <p class="title">'+v.title+'</p>\
+                                                    <p class="intro">'+v.description+'</p>\
+                                                    <p class="info">浏览: '+v.view+' <span class="pull-right">'+getLocalTime(v.create_time)+'</span> </p>\
+                                                </div>\
+                                            </a>\
+                                        </div>';
+                        });
+                        $('#content_list').append(html);
+                    } else {
+                        $('.ajax-page').html("没有更多数据了！！").removeClass('ajax-page')
+                    }
+                })
+            }
+        });
+
+    });
+</script>
+
 </body>
 </html>

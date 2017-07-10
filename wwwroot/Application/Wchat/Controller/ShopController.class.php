@@ -2,30 +2,30 @@
 /**
  * Created by PhpStorm.
  * User: stefan
- * Date: 2017/7/7
- * Time: 16:23
+ * Date: 2017/7/9
+ * Time: 14:42
  */
 
 namespace Wchat\Controller;
 
 
-class NoticeController extends WchatController
+class ShopController extends WchatController
 {
     public function index($p=1){
         if(IS_AJAX){
             $model = M('document');
             $pagesize = 1;
             $start=($p-1)*$pagesize;
-            $list=$model->where(array('document.category_id'=>2))->join('picture ON document.cover_id = picture.id')->join('document_article ON document.id = document_article.id')->limit($start,$pagesize)->select();
+            $list=$model->where(array('document.category_id'=>40))->join('picture ON document.cover_id = picture.id')->join('document_article ON document.id = document_article.id')->limit($start,$pagesize)->select();
             $this->ajaxReturn($list);
         }else{
             /* 获取通知列表 */
             $model = M('document');
             $pagesize = 1;
             $start=($p-1)*$pagesize;
-            $list=$model->where(array('document.category_id'=>2))->join('picture ON document.cover_id = picture.id')->join('document_article ON document.id = document_article.id')->limit($start,$pagesize)->select();
+            $list=$model->where(array('document.category_id'=>40))->join('picture ON document.cover_id = picture.id')->join('document_article ON document.id = document_article.id')->limit($start,$pagesize)->select();
             $this->assign('list', $list);
-            $this->meta_title = '小区通知';
+            $this->meta_title = '小区活动';
             $this->display();
         }
     }
@@ -37,7 +37,7 @@ class NoticeController extends WchatController
             $Document->save();
             $detail=M('Document')->where(array('document.id'=>$id))->join('document_article ON document.id = document_article.id')->join('member ON document.uid=member.uid')->join('picture ON document.cover_id = picture.id')->find();
             $this->assign('detail',$detail);
-            $this->meta_title='通知详情';
+            $this->meta_title='活动详情';
             $this->display('detail');
         }else {
             $this->error('你访问的页面不存在');

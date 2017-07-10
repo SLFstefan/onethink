@@ -55,38 +55,36 @@
 
     <!-- 主体 -->
 
-    <div class="container-fluid">
-        <form class="login-form" action="/Wchat.php?s=/User/register.html" method="post">
-            <h2 class="form-signin-heading">用户注册</h2>
-            <p>
-                <label for="inputUsername" class="sr-only">用户名</label>
-                <input type="text" name="username" id="inputUsername" class="form-control" placeholder="用户名" required autofocus>
-            </p>
-            <p>
-                <label for="inputPassword" class="sr-only">密码</label>
-                <input type="password" name="password" id="inputPassword" class="form-control" placeholder="密码" required>
-            </p>
-            <p>
-                <label for="inputrePassword" class="sr-only">确认密码</label>
-                <input type="password" name="repassword" id="inputrePassword" class="form-control" placeholder="确认密码" required>
-            </p>
-            <p>
-                <label for="inputEmail" class="sr-only">邮箱</label>
-                <input type="email" name="email" id="inputEmail" class="form-control" placeholder="邮箱" required>
-            </p>
-            <p>
-                <label for="inputCaptcha" class="sr-only">验证码</label>
-                <input type="text" name="verify" id="inputCaptcha" class="form-control" placeholder="请输入验证码" required>
-            </p>
-            <div class="controls" style="margin-bottom: 20px;">
-                <img class="verifyimg reloadverify" alt="点击切换" onclick="this.src='/wchat.php?s=/User/verify.html'" src="<?php echo U('verify');?>" style="cursor:pointer;height: 40px;">
+    <div class="container">
+        <div class="blank"></div>
+        <div class="row">
+            <div class="col-xs-3">
+                <img src="./Public/Wchat/image/5.png"  width="60" height="60"/>
             </div>
-            <p>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">注册</button>
-            </p>
-        </form>
-        <p class="text-right"><a href="<?php echo U('User/login');?>">已有账号，直接登录</a></p>
+            <div class="col-xs-9">
+                admin<br/>
+                呜呜呜                                    <br/> 积分:
+                <span class="text-danger">369</span>
+                <span class="text-danger pull-right"><a class="ajax-get" href="/Center/sign.html">签到</a></span>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <div class="row text-center myLabel">
+            <div class="col-xs-4 label-danger"><a href="#"><span class="iconfont">&#xe60b;</span>我的资料</a></div>
+            <div class="col-xs-4 label-success"><a href="/Repair/index.html"><span class="iconfont">&#xe609;</span>我的报修</a></div>
+            <div class="col-xs-4 label-primary"><a href="/Center/activity.html"><span class="iconfont">&#xe606;</span>报名的活动</a></div>
+        </div>
+        <div class="blank"></div>
+        <div>
+            <ul class="list-group fuwuList">
+                <li class="list-group-item"><a href="/Center/myNotice.html" class="text-info"><span class="iconfont">&#xe60a;</span>我的缴费账单</a>
+                </li><li class="list-group-item"><a href="/Center/myNotice.html" class="text-danger"><span class="iconfont">&#xe60a;</span>我的物业通知</a>
+            </li><li class="list-group-item"><a href="/Center/myNotice.html" class="text-info"><span class="iconfont">&#xe60a;</span>我的水电气使用</a>
+            </li><li class="list-group-item"><a href="<?php echo U('User/logout');?>" class="text-danger"><span class="iconfont">&#xe60a;</span>退出登录</a>
+            </li>            </ul>
+        </div>
     </div>
+
 
 
     <!-- /主体 -->
@@ -112,6 +110,8 @@
             }
         })();
     </script>
+
+    <script type="text/javascript" src="/Public/Wchat/js/my.js"></script>
     <!-- 用于加载js代码 -->
     <!-- 页面footer钩子，一般用于加载插件JS文件和JS代码 -->
     <div class="hidden"><!-- 用于加载统计代码等隐藏元素 -->

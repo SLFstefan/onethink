@@ -45,17 +45,17 @@
 
     <div class="container-fluid" id="content_list">
         <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$list): $mod = ($i % 2 );++$i;?><div class="row noticeList">
-            <a href="notice-detail.html">
-                <div class="col-xs-2">
-                    <img class="noticeImg" src="<?php echo ($list["path"]); ?>" />
-                </div>
-                <div class="col-xs-10">
-                    <p class="title"><a href="<?php echo U('Notice/detail',array('id'=>$list['id']));?>" class="navbar-link"><?php echo ($list["title"]); ?></a></p>
-                    <p class="intro"><?php echo ($list["description"]); ?></p>
-                    <p class="info">浏览: <?php echo ($list["view"]); ?> <span class="pull-right"><?php echo (date('Y-m-d G:i:s',$list["create_time"])); ?></span> </p>
-                </div>
-            </a>
-        </div><?php endforeach; endif; else: echo "" ;endif; ?>
+                <a href="notice-detail.html">
+                    <div class="col-xs-2">
+                        <img class="noticeImg" src="<?php echo ($list["path"]); ?>" />
+                    </div>
+                    <div class="col-xs-10">
+                        <p class="title"><a href="<?php echo U('Shop/detail',array('id'=>$list['id']));?>" class="navbar-link"><?php echo ($list["title"]); ?></a></p>
+                        <p class="intro"><?php echo ($list["description"]); ?></p>
+                        <p class="info">浏览: <?php echo ($list["view"]); ?> <span class="pull-right"><?php echo (date('Y-m-d G:i:s',$list["create_time"])); ?></span> </p>
+                    </div>
+                </a>
+            </div><?php endforeach; endif; else: echo "" ;endif; ?>
     </div>
     <div class="text-center">
         <button type="button" class="btn btn-info ajax-page">获取更多~~~</button>
@@ -67,8 +67,8 @@
 <script src="./public/Wchat/bootstrap/js/bootstrap.min.js"></script>
 <script type="application/javascript">
     var p = 1;
-    var url = '/wchat.php?s=/Notice/index';
-    var inner_url = '/wchat.php?s=/Notice/detail';
+    var url = '/wchat.php?s=/Shop/index';
+    var inner_url = '/wchat.php?s=/Shop/detail';
     //将时间戳转换为本地时间
     function getLocalTime(time) {
         return new Date(parseInt(time) * 1000).toLocaleString().replace(/:\d{1,2}$/,' ');

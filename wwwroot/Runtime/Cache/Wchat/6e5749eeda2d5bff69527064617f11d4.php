@@ -37,7 +37,7 @@
                 <p class="navbar-text"><a href="#" class="navbar-link">发现</a></p>
             </div>
             <div class="col-xs-3">
-                <p class="navbar-text"><a href="#" class="navbar-link">我的</a></p>
+                <p class="navbar-text"><a href="<?php echo U('Index/my');?>" class="navbar-link">我的</a></p>
             </div>
         </div>
     </nav>

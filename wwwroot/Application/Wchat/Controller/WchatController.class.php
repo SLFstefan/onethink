@@ -2,6 +2,7 @@
 
 namespace Wchat\Controller;
 
+
 use Think\Controller;
 
 class WchatController extends Controller
