@@ -1,0 +1,11 @@
+[ 2017-07-12T13:41:22+08:00 ] 127.0.0.1 /Wchat.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.066004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.132007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.2290s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0460s ]
+

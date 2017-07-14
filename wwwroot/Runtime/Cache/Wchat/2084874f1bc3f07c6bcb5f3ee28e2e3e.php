@@ -62,8 +62,8 @@
                 <img src="./Public/Wchat/image/5.png"  width="60" height="60"/>
             </div>
             <div class="col-xs-9">
-                admin<br/>
-                呜呜呜                                    <br/> 积分:
+                <?php echo ($list["nickname"]); ?><br/>
+                燥起来                                    <br/> 积分:
                 <span class="text-danger">369</span>
                 <span class="text-danger pull-right"><a class="ajax-get" href="/Center/sign.html">签到</a></span>
             </div>

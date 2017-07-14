@@ -20,6 +20,9 @@ class IndexController extends WchatController
     //我的
     public function my(){
         $this->login();
+        $uid=session('user_auth')['uid'];
+        $list=M('Member')->find($uid);
+        $this->assign('list',$list);
         $this->display('my');
 
 

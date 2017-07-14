@@ -20,33 +20,31 @@
                 <th class="row-selected">
                     <input class="checkbox check-all" type="checkbox">
                 </th>
-                <th>发布人</th>
-                <th>发布人电话</th>
-                <th>标题</th>
-                <th>类型</th>
-                <th>价格</th>
-                <th>发布时间</th>
-                <th>截止时间</th>
+                <th>报修单号</th>
+                <th>报修人</th>
+                <th>电话</th>
+                <th>地址</th>
+                <th>问题</th>
+                <th>报修时间</th>
                 <th>状态</th>
                 <th>操作</th>
             </tr>
             </thead>
             <tbody>
             <notempty name="list">
-                <volist name="list" id="center">
+                <volist name="list" id="list">
                     <tr>
-                        <td><input class="ids row-selected" type="checkbox" name="" id="" value="{$center['id']}"> </td>
-                        <td>{$sale.name}</td>
-                        <td>{$sale.tel}</td>
-                        <td>{$sale.title}</td>
-                        <td>{$sale.type}</td>
-                        <td>{$sale.price}</td>
-                        <td>{$sale.create_time}</td>
-                        <td>{$sale.end_time}</td>
-                        <td>{$sale.status}</td>
+                        <td><input class="ids row-selected" type="checkbox" name="" id="" value="{$list['id']}"> </td>
+                        <td>{$list.sn}</td>
+                        <td>{$list.name}</td>
+                        <td>{$list.tel}</td>
+                        <td>{$list.address}</td>
+                        <td>{$list.title}</td>
+                        <td>{$list.create_time|date='Y-m-d G:i:s',###}</td>
+                        <td>{:($list.status==1)?'通过审核':'未通过审核'}</td>
                         <td>
-                            <a title="编辑" href="{:U('edit?id='.$center['id'])}">编辑</a>
-                            <a class="confirm ajax-get" title="删除" href="{:U('del?id='.$center['id'])}">删除</a>
+                            <a title="通过" href="{:U('pass?id='.$list['id'])}">通过审核</a>
+                            <a class="confirm ajax-get" title="删除" href="{:U('del?id='.$list['id'])}">删除</a>
                         </td>
                     </tr>
                 </volist>

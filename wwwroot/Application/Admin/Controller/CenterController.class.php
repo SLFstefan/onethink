@@ -15,7 +15,7 @@ class CenterController extends AdminController
 {
     //保修管理
     public function index(){
-        $list = M('Center')->order('id asc')->select();
+        $list = M('Repair')->select();
         $this->assign('list', $list);
         $this->meta_title = '保修管理';
         $this->display();

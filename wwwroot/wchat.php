@@ -7,6 +7,10 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
  * 系统调试设置
  * 项目正式部署后请设置为false
  */
+
+//定义一个项目根目录的绝对路径
+define('ROOT_PATH',dirname($_SERVER['SCRIPT_FILENAME'])."/");
+
 define('APP_DEBUG', true );
 define('BIND_MODULE','Wchat');
 define('HTML_PATH', './HTML/');//生成静态页面的文件位置

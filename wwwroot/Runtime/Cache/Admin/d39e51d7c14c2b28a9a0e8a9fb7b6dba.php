@@ -104,31 +104,29 @@
                 <th class="row-selected">
                     <input class="checkbox check-all" type="checkbox">
                 </th>
-                <th>发布人</th>
-                <th>发布人电话</th>
-                <th>标题</th>
-                <th>类型</th>
-                <th>价格</th>
-                <th>发布时间</th>
-                <th>截止时间</th>
+                <th>报修单号</th>
+                <th>报修人</th>
+                <th>电话</th>
+                <th>地址</th>
+                <th>问题</th>
+                <th>报修时间</th>
                 <th>状态</th>
                 <th>操作</th>
             </tr>
             </thead>
             <tbody>
-            <?php if(!empty($list)): if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$center): $mod = ($i % 2 );++$i;?><tr>
-                        <td><input class="ids row-selected" type="checkbox" name="" id="" value="<?php echo ($center['id']); ?>"> </td>
-                        <td><?php echo ($sale["name"]); ?></td>
-                        <td><?php echo ($sale["tel"]); ?></td>
-                        <td><?php echo ($sale["title"]); ?></td>
-                        <td><?php echo ($sale["type"]); ?></td>
-                        <td><?php echo ($sale["price"]); ?></td>
-                        <td><?php echo ($sale["create_time"]); ?></td>
-                        <td><?php echo ($sale["end_time"]); ?></td>
-                        <td><?php echo ($sale["status"]); ?></td>
+            <?php if(!empty($list)): if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$list): $mod = ($i % 2 );++$i;?><tr>
+                        <td><input class="ids row-selected" type="checkbox" name="" id="" value="<?php echo ($list['id']); ?>"> </td>
+                        <td><?php echo ($list["sn"]); ?></td>
+                        <td><?php echo ($list["name"]); ?></td>
+                        <td><?php echo ($list["tel"]); ?></td>
+                        <td><?php echo ($list["address"]); ?></td>
+                        <td><?php echo ($list["title"]); ?></td>
+                        <td><?php echo (date('Y-m-d G:i:s',$list["create_time"])); ?></td>
+                        <td><?php echo ($list.status==1)?'通过审核':'未通过审核';?></td>
                         <td>
-                            <a title="编辑" href="<?php echo U('edit?id='.$center['id']);?>">编辑</a>
-                            <a class="confirm ajax-get" title="删除" href="<?php echo U('del?id='.$center['id']);?>">删除</a>
+                            <a title="通过" href="<?php echo U('pass?id='.$list['id']);?>">通过审核</a>
+                            <a class="confirm ajax-get" title="删除" href="<?php echo U('del?id='.$list['id']);?>">删除</a>
                         </td>
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                 <?php else: ?>

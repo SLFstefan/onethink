@@ -1,0 +1,132 @@
+[ 2017-07-11T18:29:00+08:00 ] 127.0.0.1 /Wchat.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.104006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.189011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.5970s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.2400s ]
+
+[ 2017-07-11T18:29:15+08:00 ] 127.0.0.1 /Wchat.php?s=/Index/my.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0020s ]
+
+[ 2017-07-11T18:29:19+08:00 ] 127.0.0.1 /Wchat.php?s=/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0470s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0020s ]
+
+[ 2017-07-11T18:29:21+08:00 ] 127.0.0.1 /Wchat.php?s=/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.057004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.059004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-11T18:29:40+08:00 ] 127.0.0.1 /Wchat.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0020s ]
+
+[ 2017-07-11T18:33:58+08:00 ] 127.0.0.1 /Wchat.php?s=/Repair/repair.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-11T18:34:02+08:00 ] 127.0.0.1 /Wchat.php?s=/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0020s ]
+
+[ 2017-07-11T18:34:02+08:00 ] 127.0.0.1 /Wchat.php?s=/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0140s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0030s ]
+
+[ 2017-07-11T18:34:45+08:00 ] 127.0.0.1 /Wchat.php?s=/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0060s ]
+
+[ 2017-07-11T18:34:46+08:00 ] 127.0.0.1 /Wchat.php?s=/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0030s ]
+
+[ 2017-07-11T18:34:53+08:00 ] 127.0.0.1 /Wchat.php?s=/Activity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2017-07-11T18:35:02+08:00 ] 127.0.0.1 /Wchat.php?s=/Sale/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0140s ]
+SQL: SELECT `type`,`name`,`value` FROM `config` WHERE `status` = 1  [ RunTime:0.0020s ]
+
